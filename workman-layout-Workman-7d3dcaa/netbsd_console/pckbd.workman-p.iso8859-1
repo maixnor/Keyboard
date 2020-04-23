@@ -1,0 +1,61 @@
+# Workman-P keymap for NetBSD console.
+# http://workman.ws/
+# http://www.workmanlayout.com
+# copy to /usr/share/wscons/keymaps/pckbd.workman-p.iso8859-1
+# modify the mapfile setting in /etc/wscons.conf
+
+keycode  41 =          grave    asciitilde       dead_tilde        asciitilde
+keycode   2 =         exclam             1       exclamdown       onesuperior
+keycode   3 =             at             2       masculine       twosuperior
+keycode   4 =     numbersign             3      ordfeminine     threesuperior
+keycode   5 =         dollar             4             cent          sterling
+keycode   6 =        percent             5       asciitilde               yen
+keycode   7 =    asciicircum             6       asciitilde        asciitilde
+keycode   8 =      ampersand             7              eth               ETH
+keycode   9 =       asterisk             8            thorn             THORN
+keycode  10 =      parenleft             9       asciitilde        asciitilde
+keycode  11 =     parenright             0       asciitilde        asciitilde
+keycode  12 =          minus    underscore       asciitilde        asciitilde
+keycode  13 =          equal          plus         multiply          division
+
+keycode  16 =              q             Q       adiaeresis        Adiaeresis
+keycode  17 =              d             D   dead_diaeresis        asciitilde
+keycode  18 =              r             R       dead_grave        asciitilde
+keycode  19 =              w             W            aring             Aring
+keycode  20 =              b             B       asciitilde        asciitilde
+keycode  21 =              j             J       asciitilde        asciitilde
+keycode  22 =              f             F           atilde            Atilde
+keycode  23 =              u             U           uacute            Uacute
+keycode  24 =              p             P           oslash          Ooblique
+keycode  25 =      semicolon         colon       odiaeresis        Odiaeresis
+keycode  26 =    bracketleft     braceleft    guillemotleft        asciitilde
+keycode  27 =   bracketright    braceright   guillemotright        asciitilde
+keycode  43 =      backslash           bar       asciitilde        asciitilde
+
+keycode  30 =              a             A           aacute            Aacute
+keycode  31 =              s             S           ssharp        asciitilde
+keycode  32 =              h             H       asciitilde        asciitilde
+keycode  33 =              t             T       dead_acute        asciitilde
+keycode  34 =              g             G       asciitilde        asciitilde
+keycode  35 =              y             Y       udiaeresis        Udiaeresis
+keycode  36 =              n             N           ntilde            Ntilde
+keycode  37 =              e             E           eacute            Eacute
+keycode  38 =              o             O           oacute            Oacute
+keycode  39 =              i             I           iacute            Iacute
+keycode  40 =     apostrophe      quotedbl           otilde            Otilde
+
+keycode  44 =              z             Z               ae                AE
+keycode  45 =              x             X  dead_circumflex        asciitilde
+keycode  46 =              m             M       asciitilde        asciitilde
+keycode  47 =              c             C         ccedilla          Ccedilla
+keycode  48 =              v             V       asciitilde        asciitilde
+keycode  49 =              k             K       asciitilde        asciitilde
+keycode  50 =              l             L       asciitilde        asciitilde
+keycode  51 =          comma          less     dead_cedilla        asciitilde
+keycode  52 =         period       greater       asciitilde        asciitilde
+keycode  53 =          slash      question     questiondown        asciitilde
+
+keycode  58 =      BackSpace        Escape        BackSpace         BackSpace
+keycode  86 =          minus    underscore       asciitilde        asciitilde
+keycode  57 =          space         space            space      nobreakspace
+keycode 184 =    Mode_switch   Mode_switch
