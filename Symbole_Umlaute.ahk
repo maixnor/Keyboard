@@ -38,6 +38,6 @@ return
 Send ß
 return
 
-!q::  
-Send {raw}^ 
+!e::  
+Send {raw}€
 return
